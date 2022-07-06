@@ -129,9 +129,17 @@ const Home = ({ navigation }) => {
             <View style={style.header}>
                 <View>
                     <Text style={{ color: COLORS.dark, fontSize: 30, fontWeight: 'bold', marginTop: 10, }}>
-                        Suraj-Shakti Engineers
+                        GENbro
                     </Text>
                     <Text style={{ color: COLORS.white, fontSize: 20, marginTop: 10 }}>Welcome</Text>
+                </View>
+
+                <View style={{marginVertical: 14 }}>
+                        <Image
+                        source={require('../assets/transformer.png')}
+                        resizeMode="contain"
+                        style={{ width: 100, height: 100, marginRight: 15, }}
+                    />
                 </View>
             </View>
             <ScrollView showsVerticalScrollIndicator={false} >
@@ -178,6 +186,7 @@ const style = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-between',
         paddingHorizontal: 20,
+        
     },
     profileImage: {
         height: 50,

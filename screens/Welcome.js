@@ -55,7 +55,7 @@ const Welcome = ({ navigation }) => {
             <View style={{ paddingHorizontal: 20, paddingTop: 50 }}>
                 {/* Title container */}
                 <View>
-                    <Text style={styles.title}>Suraj-Shakti Engineers</Text>
+                    <Text style={styles.title}>GENbro</Text>
                     <Text style={{ fontWeight: 'bold', fontStyle: 'italic', paddingTop: 10, color: 'white' }}>For all your Industrial needs</Text>
                 </View>
 
@@ -89,7 +89,7 @@ const Welcome = ({ navigation }) => {
 
             <View style={styles.bottomView}>
                 <Icon name="location-pin" size={30} color={COLORS.dark} />
-                <Text style={{ flexDirection: 'row', }}>BG-352,Transport Nagar, New Delhi </Text>
+                <Text style={{ flexDirection: 'row', }}>Adress </Text>
             </View>
 
         </SafeAreaView>
